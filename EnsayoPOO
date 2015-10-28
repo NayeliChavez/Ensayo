@@ -1,0 +1,79 @@
+PROGRAMACIÓN ORIENTADA A OBJETOS
+Orígenes
+Primera Etapa: Lenguajes Ensambladores. La unidad de programación es la instrucción, compuesta de un operador y los operandos. El nivel de abstracción que se aplica es muy bajo.
+
+Segunda Etapa: Lenguajes de Programación.Fortran, Algol, Cobol. Los objetos y operaciones del mundo real se podían modelar mediante datos y estructuras de control separadamente. En esta etapa el diseño del software se enfoca sobre la representación del detalle procedimental y en función del lenguaje elegido. Conceptos como:
+Refinamiento progresivo
+Modularidad
+Procedimientos
+Programación estructurada
+
+Tercera Etapa. Se introducen en esta etapa los conceptos de abstracción y ocultación de la información.
+
+Cuarta Etapa. A partir de los años setenta se trabaja sobre una nueva clase de lenguajes de simulación y sobre la construcción de prototipos tales como Simula-70 y basado en parte de éste, el Smalltalk. En estos lenguajes, la abstracción de datos tiene una gran importancia y los problemas del mundo real se representan mediante objetos de datos a los cuales se les añade el correspondiente conjunto de operaciones asociados a ellos. Términos como
+Abstracción de datos
+Objeto
+Encapsulación
+La Programación Orientada a Objetos es una técnica para desarrollar soluciones computacionales utilizando componentes de software (objetos de software).
+La Programación Orientada a Objetos se basa en el modelo objeto donde el elemento principal es el objeto, el cual es una unidad que contiene todas sus características y comportamientos en sí misma, lo cual lo hace como un todo independiente pero que se interrelaciona con objetos de su misma clase o de otras clase, como sucede en el mundo real. 
+
+Para que la POO puede desarrollarse en necesario contar con ciertos elementos, que ayudaran a que el código pueda ser reutilizado.
+
+Objeto: Un objeto es una entidad abstracta que tiene las características de un objeto real; estos objetos se crean y eliminan durante la ejecución del programa, además interactúan con otros objetos. Los objetos son construcciones de programación que se obtienen a partir de entidades llamadas clases.
+
+Clase: Podemos considerar una clase como una colección de objetos que poseen características y operaciones comunes. Una clase contiene toda la información necesaria para crear nuevos objetos. La definición de una clase se conoce como instanciación de clases.
+
+Encapsulamiento: Es una técnica que permite localizar y ocultar los detalles de un objeto. La encapsulación previene que un objeto sea manipulado por operaciones distintas de las definidas. La encapsulación es como una caja negra que esconde los datos y solamente permite acceder a ellos de forma controlada. Las principales razones técnicas para la utilización de la encapsulación son:
+Mantener a salvo los detalles de representación, si solamente nos interesa el comportamiento del objeto.
+Modificar y ajustar la representación a mejores soluciones algorítmicas o a nuevas tecnologías de software.
+
+Abstracción:En el sentido general, una abstracción es una representación concisa de una idea o de un objeto complicado. En el sentido específico, la abstracción localiza y oculta los detalles de un modelo o diseño para generar y manipular objetos. Una abstracción tiene un significado más general que la encapsulación, pudiendo hablar de abstracción de datos en lugar de encapsulación de datos.
+
+Polimorfismo:Significa que un nombre se puede utilizar para especificar una clase genérica de acciones.
+
+Herencia: La herencia es un proceso mediante el cual un objeto puede adquirir las propiedades de otro objeto. 
+
+Dentro de los programas que utilizan características de un lenguaje orientado a objetos, podemos encontrar los siguientes:
+Simula (1967) es aceptado como el primer lenguaje que posee las características principales de un lenguaje orientado a objetos. Fue creado para hacer programas de simulación, en donde los "objetos" son la representación de la información más importante.
+Smalltalk (1972 a 1980) es posiblemente el ejemplo canónico, y con el que gran parte de la teoría de la programación orientada a objetos se ha desarrollado.
+Ada
+C++
+C#
+VB.NET
+Clarion
+Delphi
+Eiffel
+Java
+Lexico (en castellano)
+Objective-C
+Ocaml
+Oz
+PHP
+PowerBuilder
+Python
+Ruby
+
+Ventajas de la POO
+Reusabilidad. Cuando hemos diseñado adecuadamente las clases, se pueden usar en distintas partes del programa y en numerosos proyectos.
+Mantenibilidad. Debido a las sencillez para abstraer el problema, los programas orientados a objetos son más sencillos de leer y comprender, pues nos permiten ocultar detalles de implementación dejando visibles sólo aquellos detalles más relevantes.
+Modificabilidad. La facilidad de añadir, suprimir o modificar nuevos objetos nos permite hacer modificaciones de una forma muy sencilla.
+Fiabilidad. Al dividir el problema en partes más pequeñas podemos probarlas de manera independiente y aislar mucho más fácilmente los posibles errores que puedan surgir.
+
+Desventajas de la POO
+Cambio en la forma de pensar de la programación tradicional a la orientada a objetos.
+La ejecución de programas orientados a objetos es más lenta.
+La necesidad de utilizar bibliotecas de clases obliga a su aprendizaje y entrenamiento.
+La POO en la industria del software
+
+La industria moderna del software tiene en la programación orientada a objetos toda una filosofía para conceptuar y representar la realidad tangible e intangible, debido a la versatibilidad que proporciona a los programadores y a la flexibilidad que demuestra para el desarrollo de sistemas de información. 
+La programación orientada a objetos juega un papel muy importante dentro de la industria de software, ya que para realizar software las empresas han implementado metodologías que ayudan reducir el número de errores dentro del software; la POO ha sido de gran importancia, ya que este tipo de programación nos ayuda a reutilizar gran parte de código.
+Programación estructurada vs Programació orientada a objetos
+La programación estructurada consta de una estructura donde se va ejecutando paso a paso y este debe de tener una secuencia y una lógica para que su función sea eficiente.
+La POO se basa en una nueva forma de pensar los problemas los problemas, declarando como variables a los tipos de datos los objetos del problema, y que a su vez, cada objeto tiene anidadas variables que hacen referencia al dato.
+La programación orientada a objetos es más moderna, es una evolución de la programación estructurada que plasma el diseño de una familia de lenguajes y conceptos que existían previamente con algunos diseños.
+La POO se basa en lenguajes que soportan sintáctica y semánticamente la unión entre los tipos abstractos de datos y sus operaciones(clase).
+La POO incorpora en su entorno de ejecución macanismos tales como el polimorfismo y el envío de mensajes entre objetos.
+La programación estructurada pretende resolver un problema de principio a fin en una sola estructura de código.
+
+Como conclusión se puede decir que la Programación Orientada a Objetos a sido utilizado como una herramienta muy importante en la creación de nuevo software, ya que la forma de programación permite que podamos reutilizar gran parte de código ya creado.
+La Programación Orientada a Objetos la podemos aplicar en cosas muy cotidianas, por ejemplo: al pensar en un automóvil que sería nuestro objeto, las propiedades serían las caracteríticas como el color, modelo, etc. y los métodos serían las funcionalidades como avanzar o detenerse.
